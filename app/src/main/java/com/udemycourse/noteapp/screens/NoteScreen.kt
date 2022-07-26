@@ -43,7 +43,7 @@ fun NoteScreen(
             title = {
                 Text(text = stringResource(id = R.string.app_name))
             },
-            backgroundColor = Color(0xFFACAAAA),
+            backgroundColor = Color(0xFFD8D7D7),
             actions = {
                 Icon(
                     imageVector = Icons.Default.Notifications,
@@ -101,7 +101,7 @@ fun NoteRow(
            .fillMaxWidth()
            .padding(4.dp)
            .clickable { onClick(note) },
-       backgroundColor = Color(0xFFACAAAA),
+       backgroundColor = Color(0xFFD8D7D7),
        shape = RoundedCornerShape(topEnd = 15.dp, bottomStart = 15.dp),
        elevation = 4.dp
    ) {
